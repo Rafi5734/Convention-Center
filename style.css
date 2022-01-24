@@ -1,10 +1,22 @@
-.the-carousel {
+.carousel-1 {
+    background-image: url("https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    width: 100%;
+    height: 100vh;
+}
+.inside-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.carousel-2 {
     background-image: url("https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     width: 100%;
     height: 100vh;
 }
-.the-carousel1 {
-    background-image: url("https://images.pexels.com/photos/1543762/pexels-photo-1543762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+.carousel-3 {
+    background-image: url("https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     width: 100%;
     height: 100vh;
 }
@@ -38,18 +50,6 @@
     bottom: 100px;
     float: right;
 }
-.toast-main {
-    -webkit-border-radius: 20px;
-    border-radius: 10px;
-    background: #d1d8ec;
-    -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
-    box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
-    padding: 20px;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    left: 200px;
-}
 .faq-main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -79,10 +79,6 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
-    }
-    .toast-main {
-        margin-top: 30px;
-        margin-left: -240px;
     }
     .badge-hot {
         margin-top: 15px;
